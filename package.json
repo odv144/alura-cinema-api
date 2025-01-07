@@ -1,0 +1,28 @@
+{
+  "name": "alurageek-api",
+  "version": "1.0.0",
+  "description": "Api fake para usar en alurageek",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odv144/apigeek.git"
+  },
+  "keywords": [
+    "alura",
+    "alurageek",
+    "json-server",
+    "javascript",
+    "API"
+  ],
+  "author": "Omar virili, omar.virilit@gmail.com",
+  "license": "MIT",
+  
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.4"
+  }
+}
